@@ -3,7 +3,6 @@ enable: true
 title: "Services"
 subtitle: >
           We provide high-quality IT consulting services
-buttonTarget: "contact"
 itemServices:
   - package: "IT Research"
     description: >
