@@ -3,6 +3,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  background: #ffffff;
   &-content {
     @include tablet {
       text-align: center;
