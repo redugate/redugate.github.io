@@ -1,0 +1,43 @@
+baseURL = ''
+languageCode = 'en-us'
+paginate = 6
+theme= "coHub"
+title = 'Redugate'
+ 
+[Menu]
+  # Main Menu
+  [[menu.Main]]
+  name = "Home"
+  url= "/"
+  weight = 1
+  [[menu.Main]]
+  name = "Philosophy"
+  url= "/philosophy/"
+  weight = 2
+  [[menu.Main]]
+  name = "Services"
+  url= "/services/"
+  weight = 3
+  [[menu.Main]]
+  name = "Contacts"
+  url= "/contacts/"
+  weight = 4
+
+  # Sitemap Menu
+  [[menu.sitemap]]
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 1
+  [[menu.sitemap]]
+  name = "Terms"
+  url = "/terms/"
+  weight = 2
+
+[params]
+  aboutPageURL = "philosophy"
+  contactLink = "contacts"
+  copyright = "© 2022-{year} Redugate Inc."
+  fabFormURL =  "https://fabform.io/f/J1RGlye"
+  logo = "images/logo.png"
+  footerlogo = "images/logo.png"
+  footerDescription = "Scale. IT. Right."
