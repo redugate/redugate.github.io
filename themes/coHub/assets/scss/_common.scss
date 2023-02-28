@@ -97,26 +97,23 @@
     }
   }
 }
-.about {
-  padding-top: 150px;
-  @include mobile {
-    padding-top: 120px;
-  }
-}
 .philosophy {
   padding-top: 100px;
+  background: #ffffff;
   @include mobile {
     padding-top: 100px;
   }
 }
 .services {
   padding-top: 100px;
+  background: #ffffff;
   @include mobile {
     padding-top: 100px;
   }
 }
 .contacts {
   padding-top: 100px;
+  background: #ffffff;
   @include mobile {
     padding-top: 100px;
   }
