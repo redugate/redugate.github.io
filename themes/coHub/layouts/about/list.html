@@ -23,7 +23,7 @@
         <div class="story-slider">
           {{range .Params.sliderImage }}
             <div class="slider-item">
-              <img src="/{{ .image | absURL }}" alt="images">
+              <img src="{{ .image | absURL }}" alt="images">
             </div>
           {{end}}
         </div>
