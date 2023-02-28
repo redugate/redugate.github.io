@@ -49,12 +49,12 @@
 {{$style :=  resources.Get "scss/non-critical.scss" | resources.ToCSS | resources.Minify }}
 <link href="{{ $style.Permalink }}" rel="stylesheet" />
 {{ "<!-- VENDOR JS -->" | safeHTML }}
-<script src="{{"vendor/jQuery/jquery.min.js" | absURL }}"></script>
-<script src="{{"vendor/bootstrap/bootstrap.min.js" | absURL }}"></script>
-<script src="{{"vendor/slick/slick.min.js" | absURL}}"></script>
-<script src="{{"vendor/aos/aos.js" | absURL}}"></script>
-<script src="{{"vendor/match-height/match-height.js" | absURL}}"></script>
-<script src="{{"vendor/magnific-popup/magnific-popup.min.js" | absURL}}"></script>
+<script src="/vendor/jQuery/jquery.min.js"></script>
+<script src="/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="/vendor/slick/slick.min.js"></script>
+<script src="/vendor/aos/aos.js"></script>
+<script src="/vendor/match-height/match-height.js"></script>
+<script src="/vendor/magnific-popup/magnific-popup.min.js"></script>
 <!-- {{ $formhandler := resources.Get "js/formhandler.js" | minify}} 
 <script src="{{ $formhandler.Permalink}}"></script> -->
 {{ $script := resources.Get "js/script.js" | minify}} 
