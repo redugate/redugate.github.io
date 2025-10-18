@@ -1,8 +1,10 @@
 baseURL = ''
 languageCode = 'en-us'
-paginate = 6
 theme= "coHub"
 title = 'Redugate'
+
+[pagination]
+  pagerSize = 6
  
 [Menu]
   # Main Menu
