@@ -7,7 +7,7 @@ sliderImage:
   - image: "images/philosophy/philo03.png"
 ---
 ### Research
-We audit your IT needs, then we propose relevant and modern technologies in detailed report.
+We audit your IT needs, then we propose relevant and modern technologies in a detailed report.
 
 ### Educate
 We train your technical staff on various topics.
